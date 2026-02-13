@@ -1,0 +1,45 @@
+# ======================
+# Python / Django
+# ======================
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+.env
+
+# Django static & media
+staticfiles/
+media/
+
+# Migrations cache
+**/migrations/__pycache__/
+
+# Virtual Environment
+virt/
+venv/
+env/
+
+# ======================
+# Node / React
+# ======================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React build
+build/
+dist/
+
+# ======================
+# OS / Editor
+# ======================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ======================
+# Misc
+# ======================
+coverage/
